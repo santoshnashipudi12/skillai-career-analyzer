@@ -1,0 +1,21 @@
+SKILLAI — ALL-UPDATES BUILD
+
+WINDOWS START
+1. Install Python 3.11+.
+2. For scanned PDF/photo OCR, run INSTALL_OCR_WINDOWS.bat (internet required) or install Tesseract OCR from:
+   https://github.com/UB-Mannheim/tesseract/wiki
+   Keep the default installation folder: C:\Program Files\Tesseract-OCR\
+   Then close and restart RUN_PROJECT.bat.
+3. Double-click RUN_PROJECT.bat; keep the terminal open.
+4. Visit http://127.0.0.1:5000 in Chrome.
+
+ACCEPTED RESUMES: PDF, TXT, PNG, JPG/JPEG, WEBP, BMP, TIF/TIFF (max 5 MB).
+Text PDFs/TXT do not need OCR. Scanned PDFs/photos require Tesseract OCR. If OCR is missing, those files cannot be read until it is installed; text-based PDF/TXT still work.
+Render deployment requests Tesseract through apt.txt.
+
+FEATURES: registration/login, analysis history, 60+ role checklists, ML career suggestions,
+skill aliases, OCR fallback, missing-skill-prioritized roadmaps, account-saved roadmap progress,
+and Render deployment configuration.
+
+Career suggestions are guidance, not job-readiness guarantees. A skill omitted from a resume may
+still be known by the candidate. Test carefully before using with real users.
